@@ -1,13 +1,18 @@
 import { Link } from "expo-router";
 import React from "react";
 import { Text, View } from "react-native";
-import { SafeAreaView, useSafeAreaInsets } from "react-native-safe-area-context";
+import { SafeAreaView } from "react-native-safe-area-context";
+import * as App from './_components'
 
-export default function Page() {
+
+export default function Home() {
 
   return (
-      <SafeAreaView className="flex-1 h-full bg-red-800 ">
-    
-      </SafeAreaView>
+    <SafeAreaView className="flex-1">
+        <App.Header />
+      <View className="bg-gray-200 h-full justify-center items-center">
+        <Text>Testando</Text>
+      </View>
+    </SafeAreaView>
   );
 }

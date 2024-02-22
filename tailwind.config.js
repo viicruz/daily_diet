@@ -5,10 +5,12 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        "nunito-light": 'Nunito_300Light',
-        "nunito-regular": 'Nunito_400Regular',
-        "nunito-bold": 'Nunito_700Bold',
-        "nunito-black": 'Nunito_900Black',
+        "nunito-sans-light": 'NunitoSans_300Light',
+        "nunito-sans-regular": 'NunitoSans_400Regular',
+        "nunito-sans-semibold": 'NunitoSans_600SemiBold',
+        "nunito-sans-bold": 'NunitoSans_700Bold',
+        "nunito-sans-extrabold": 'NunitoSans_800ExtraBold',
+        "nunito-sans-black": 'NunitoSans_900Black',
       }
     },
   },
